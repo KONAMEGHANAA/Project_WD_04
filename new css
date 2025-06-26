@@ -1,0 +1,19 @@
+/* About Me Section Styling */
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Alternating background color */
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    max-width: 800px; /* Limits the width of the text for readability */
+    margin: 0 auto; /* Centers the content block */
+    text-align: left; /* Aligns the paragraph text to the left */
+    line-height: 1.6; /* Increases space between lines of text */
+    font-size: 1.1em;
+}
