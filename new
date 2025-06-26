@@ -1,0 +1,58 @@
+/* Updated About Me Section Styling */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* Space between photo and text */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Makes the photo circular */
+    object-fit: cover; /* Prevents the image from stretching */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+
+/* Footer Styling */
+#contact {
+    background-color: #2c3e50; /* Same as the hero section */
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#contact p {
+    max-width: 500px;
+    margin: 15px auto; /* Adds space above/below and centers it */
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #2980b9;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #bdc3c7; /* Lighter text color */
+}
