@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONA SRI NAGA VENKATA MEGHANA | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-text">
+            <h1>KONA SRI NAGA VENKATA MEGHANA</h1>
+            <p class="headline">Creative Frontend Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I’m Kona Sri Naga Venkata Meghana from Machilipatnam, currently pursuing a Bachelor of Computer Applications at Koneru Lakshmaiah University. I have a strong academic background with a 9.4 CGPA and I'm passionate about applying my skills to solve real-world problems.
+            </p>
+            <p>
+                I recently completed an AI internship with Corizo (Wipro), where I built a machine learning model to predict cardiovascular diseases. I am skilled in Python, C, and SQL, in addition to my frontend skills. I'm a quick learner, adaptable, and actively participate in extracurricular activities including NSS and leadership roles.
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">SQL</div>
+        </div>
+    </section>
+    </body>
+</html>
