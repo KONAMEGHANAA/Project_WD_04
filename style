@@ -1,0 +1,27 @@
+/* Skills Section Styling */
+#skills {
+    padding: 50px 20px; /* Adds space above/below and on the sides */
+    text-align: center;
+    background-color: #ffffff; /* White background for this section */
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px; /* Space below the "My Skills" title */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center; /* Center the skills horizontally */
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between the skill items */
+}
+
+.skill-item {
+    background-color: #e7e7e7; /* Light grey for the skill tag */
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.2em;
+    font-weight: bold;
+}
